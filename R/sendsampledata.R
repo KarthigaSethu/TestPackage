@@ -1,3 +1,9 @@
+#' Title
+#'
+#' @return
+#' @export
+#'
+#' @examples
 send_data<-function(){
   my_data <- data.frame(
     Name = c("Alice", "Bob", "Charlie"),

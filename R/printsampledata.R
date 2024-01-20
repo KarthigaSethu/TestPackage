@@ -1,4 +1,11 @@
+#' Title
+#'
+#' @return
+#' @export
+#'
+#' @examples
+#' @include sendsampledata.R
 print_data<-function(){
-  my_data <- sendsampledata::send_data()
+  my_data <- send_data()
   print(my_data)
 }
